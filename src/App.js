@@ -151,7 +151,7 @@ function App() {
 
           <section className="footer-section" style={{ margin: '2px 0', padding: '0 5px', marginTop:'-20px'}}>
             <div className="row" id="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <div className="col left-font" id="left-font" style={{ width: '50%', textAlign: 'left', overflow: 'hidden' }}>
+              <div className="col left-font" id="left-font" style={{ width: '55%', textAlign: 'left', overflow: 'hidden' }}>
                 <h6 style={{ textTransform: 'uppercase', fontWeight: 800, marginBottom: '5px' }}>{name}</h6>
 
                 <p style={{ margin: '5px 0', fontSize: '10px' }}>{desig}</p>
