@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cocokl-app/static/css/main.0474ae8e.css",
+    "main.js": "/cocokl-app/static/js/main.37a4d145.js",
+    "static/js/453.8c6d3a3a.chunk.js": "/cocokl-app/static/js/453.8c6d3a3a.chunk.js",
+    "static/media/COCO-KERALA-header.png": "/cocokl-app/static/media/COCO-KERALA-header.5006cf9ec8d168d6dfc2.png",
+    "index.html": "/cocokl-app/index.html",
+    "main.0474ae8e.css.map": "/cocokl-app/static/css/main.0474ae8e.css.map",
+    "main.37a4d145.js.map": "/cocokl-app/static/js/main.37a4d145.js.map",
+    "453.8c6d3a3a.chunk.js.map": "/cocokl-app/static/js/453.8c6d3a3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0474ae8e.css",
+    "static/js/main.37a4d145.js"
+  ]
+}
