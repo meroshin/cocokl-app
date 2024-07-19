@@ -46,6 +46,8 @@ function App() {
       alert('Please try again.');
     }
   };
+
+  
   const inputEvent = (event) => {
     setName(event.target.value);
   };
@@ -136,8 +138,8 @@ function App() {
             </div>
           </section>
 
-          <section className="footer-section" style={{ margin: '2px 0', padding: '0 5px', marginTop:'-20px'}}>
-            <div className="row" id="row" style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <section className="footer-section" style={{ margin: '2px 0', padding: '0 -5px', marginTop:'-20px'}}>
+            <div className="row" id="row" style={{ display: 'flex' }}>
               <div className="col left-font" id="left-font" style={{ width: '55%', textAlign: 'left', overflow: 'hidden' }}>
                 <h6 style={{ textTransform: 'uppercase', fontWeight: 800, marginBottom: '5px' }}>{name}</h6>
 
@@ -148,7 +150,7 @@ function App() {
 
               <div className="col left-font" id="left-font" style={{ width: '55%', textAlign: 'left' }}>
                 <h6 style={{ textTransform: 'uppercase', fontWeight: 800, marginBottom: '5px' }}>Corporate Office</h6>
-                <p style={{ margin: '5px 0', fontSize: '10px', lineHeight:'1.3' }}>
+                <p style={{ margin: '1px 0', fontSize: '10px', lineHeight:'1.3'}}>
                   2nd Floor K C Tower, Padavattom Ernakulam - 682024, Kerala, India
                 </p>
                 <p style={{ margin: '5px 0', fontSize: '10px' }}>Phone: +91 9048200074</p>
@@ -156,22 +158,22 @@ function App() {
                 <p style={{ margin: '5px 0', fontSize: '10px' }}>Website: www.cocokerala.com</p>
               </div>
 
-              <div className="col right-font" id="right-font" style={{ width: '55%', marginTop: '25px', marginLeft:'30px', textAlign: 'left' }}>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Mumbai: +91 9048200085</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Kolkata: +91 9048299978</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Delhi: +91 9048200086</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Surat: +91 9048200025</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Pune: +91 9048200084</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Karnataka & Tamilnadu: +91 8714615177</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>MP & Chhattisgarh: +91 8714627900</p>
+              <div className="col right-font" id="right-font" style={{ width: '65%', marginTop: '25px', marginLeft:'10px', textAlign: 'left'}}>
+                <p style={{ margin: '2px 0',fontSize:'9px'}}>Mumbai: +91 9048200085</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Kolkata: +91 9048299978</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Delhi: +91 9048200086</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Surat: +91 9048200025</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Pune: +91 9048200084</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Karnataka & Tamilnadu: +91 8714615177</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>MP & Chhattisgarh: +91 8714627900</p>
               </div>
 
-              <div className="col right-font" id="right-font" style={{ width: '40%', marginTop: '25px', textAlign: 'right' }}>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Ahmedabad: +91 9048200072</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Hyderabad: +91 8714612103</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Lucknow: +91 8714669774</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Rajkot: +91 8714669771</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Nagpur: +91 9048200073</p>
+              <div className="col right-font" id="right-font" style={{ width: '50%', marginTop: '25px', textAlign: 'right' }}>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Ahmedabad: +91 9048200072</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Hyderabad: +91 8714612103</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Lucknow: +91 8714669774</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Rajkot: +91 8714669771</p>
+                <p style={{ margin: '2px 0',fontSize:'9px' }}>Nagpur: +91 9048200073</p>
               </div>
             </div>
           </section>
